@@ -44,7 +44,7 @@ Resources:
           Architecture: "X86_64"
       RobotSoftwareSuite:
         Name: "ROS"
-        Version: "Kinetic"
+        Version: "Melodic"
       SimulationSoftwareSuite:
         Name: "Gazebo"
         Version: "9"
