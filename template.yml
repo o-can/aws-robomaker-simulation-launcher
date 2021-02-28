@@ -31,7 +31,7 @@ Resources:
           Architecture: "X86_64"
       RobotSoftwareSuite:
         Name: "ROS"
-        Version: "Kinetic"
+        Version: "Melodic"
       Tags:
         "Name" : "RobotApplication"
         "Type" : "CICD_Auto_Generate"
@@ -47,7 +47,7 @@ Resources:
         Version: "Kinetic"
       SimulationSoftwareSuite:
         Name: "Gazebo"
-        Version: "7"
+        Version: "9"
       RenderingEngine:
         Name: "OGRE"
         Version: "1.x"
@@ -216,6 +216,7 @@ Resources:
                 - robomaker:BatchDescribeSimulationJob
                 - robomaker:DescribeRobotApplication
                 - robomaker:CreateSimulationJob
+                - robomaker:TagResource
                 - codepipeline:PutThirdPartyJobFailureResult
                 - logs:CreateLogStream
                 - codepipeline:PutJobFailureResult
